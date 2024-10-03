@@ -26,7 +26,7 @@ resource "aws_iam_user" "prabhu" {
 # Set the password manually
 variable "prabhu_password" {
   description = "Password for the IAM user"
-  default     = "CHrpp9154j@321"  # Change this to your desired password
+  default     = "password"  # Change this to your desired password
 }
 
 # IAM User Login Profile Creation
